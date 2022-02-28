@@ -14,5 +14,5 @@
 ###### this goes to the site, finds and downloads the image and puts it in the "nasa_pics" folder 
 
 ## folders you need to make
-###### nasa_pics
-###### saved
+##### nasa_pics
+##### saved
