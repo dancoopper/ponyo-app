@@ -1,0 +1,21 @@
+<MyLayout>
+
+    FloatLayout:
+        orientation: "vertical"
+        size: root.width, root.height
+
+        padding: 50
+        spacing: 20
+
+        Image:
+            source: 'nasa_pics/NasaPic.jpg'
+            size: self.texture_size
+            allow_stretch: True
+            keep_ratio: True
+            
+        Button:
+            text: 'save'
+            on_press: root.save_pic()            
+            size_hint: (.10, .15) 
+            #pos_hint: {'right': .6}
+            pos: (.10, .15)
